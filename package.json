@@ -1,0 +1,16 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node index.js",
+    "test_db": "node database.js"
+  },
+  "author": "Abdoul Hakim Billa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^4.13.0"
+  }
+}
